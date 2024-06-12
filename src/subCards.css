@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+margin-top: 200px;
+  }
+  
+  .card {
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  .card:hover{
+transform: scale(1.2);
+    
+  }
+  
+  .card h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .card ul li {
+    margin: 10px 0;
+  }
+  
+  .card h3 {
+    margin-top: 20px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  .bi-check-lg{
+color: green;
+
+  }
+  .bi-x-lg{
+    color:red;
+  }
+  .header1{
+    background-color: pink;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header2{
+    background-color: rgb(17, 84, 146);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header3{
+    background-color: rgb(229, 229, 46);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
